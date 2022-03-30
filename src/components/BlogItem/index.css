@@ -1,0 +1,15 @@
+
+.sm-container{
+    background-color: beige;
+    margin: 20PX;
+    height: 200px;
+    width: 400px;
+    
+}
+.bg-container{
+    background-color: aquamarine;
+    display: flex;
+
+
+}
+
