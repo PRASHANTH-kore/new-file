@@ -71,7 +71,7 @@ class Home extends Component{
                 {isRendering? (<TailSpin/>
                     /* <Loader type="TailSpin" color="#00BFFF" height={50} width={50} /> */):(
                     currentBlog.map(eachdata=>(
-                        <BlogItem key={eachdata.id} details={eachdata}/>
+                        <BlogItem  details={eachdata}/>
                     ))
                 )}
                
