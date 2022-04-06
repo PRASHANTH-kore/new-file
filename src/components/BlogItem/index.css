@@ -1,14 +1,24 @@
 
 .sm-container{
-    background-color: beige;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(0, 68, 255));
+    padding: 10px;
     margin: 20PX;
     height: 200px;
     width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
     
 }
 .bg-container{
     background-color: aquamarine;
-    display: flex;
+    background-size: cover;
+    
+    
 
 
 }

@@ -3,14 +3,15 @@ import React from 'react'
 
 const BlogItem =props=>{
     const {details}=props
-    const{title,userId,}=details
+    const{title,userId,id}=details
     
     return(
         <>
         <div className="bg-container">
             <div className="sm-container">
-                <p>{title}</p>
-                <p>{userId}</p>
+                <h3>{title}</h3>
+                <p>id:{id}</p>
+                <p>User Id:{userId}</p>
             </div>
             
         </div>
